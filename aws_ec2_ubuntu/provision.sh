@@ -1,0 +1,1 @@
+echo "content here" > /home/ubuntu/filename.txt

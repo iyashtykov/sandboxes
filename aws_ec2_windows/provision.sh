@@ -1,0 +1,1 @@
+echo "content here" > "C:\filename.txt"

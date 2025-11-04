@@ -1,0 +1,6 @@
+version: "1.0"
+type: "null"
+settings:
+  lifetime: "10m"
+  lifetime_extension: "5m"
+  lifetime_max: "20m"
