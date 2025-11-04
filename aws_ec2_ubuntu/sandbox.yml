@@ -8,6 +8,3 @@ settings:
     instance_type: t3.micro
     image: codio-aws-ubuntu-base
     volume_size: 30
-  provision_engine: bash
-  provision_engine_config:
-    script: provision.sh
