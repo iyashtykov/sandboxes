@@ -6,7 +6,8 @@ settings:
   lifetime_max: "20m"
   parameters:
     instance_type: t3.micro
+    # VM image name or id
     image: codio-aws-ubuntu-base
     volume_size: 30
-    # open by default - vnc or ssh
+    # open by default - vnc or ssh, or don't set option to use both
     connection_mode: ssh
