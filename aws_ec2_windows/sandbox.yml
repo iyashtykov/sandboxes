@@ -5,7 +5,7 @@ settings:
   lifetime_extension: "5m"
   lifetime_max: "20m"
   parameters:
-    instance_type: t3.micro
+    instance_type: t3.medium
     # VM image name or id - Windows Codio Ami or codio-aws-windows-base
     image: codio-aws-windows-base
     volume_size: 30
