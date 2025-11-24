@@ -10,4 +10,13 @@ settings:
     image: codio-aws-ubuntu-base
     volume_size: 30
     # open by default - vnc or ssh, or don't set option to use both
-    connection_mode: ssh
+    connection_mode: vnc
+
+prime:
+  # set type: date or continuous
+  type: date
+  start_dates:
+    # set datetime (UTC) to prime the sandbox
+  - date: 2025-11-24T11:40:00Z
+    # set count of primed sandboxes   
+    count: 2

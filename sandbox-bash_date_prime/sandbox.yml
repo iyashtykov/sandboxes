@@ -1,0 +1,17 @@
+version: 1.0
+type: aws_cloud
+settings:
+  lifetime: 10m
+  lifetime_extension: 5m
+  lifetime_max: 20m
+  policy: policy.json
+  billing_limit: 5.0
+
+prime:
+  type: date
+  start_dates:
+  - date: 2025-11-24T11:40:00Z
+    count: 2
+  provision_engine: bash
+  provision_engine_config:
+    script: "run.sh"
