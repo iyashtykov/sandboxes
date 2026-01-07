@@ -12,8 +12,8 @@ settings:
     # open by default - vnc or ssh, or don't set option to use both
     connection_mode: vnc
 
-prime:
-  # set type: date or continuous
-  type: continuous
-  # set count of primed sandboxes   
-  count: 1
+# prime:
+#   # set type: date or continuous
+#   type: continuous
+#   # set count of primed sandboxes   
+#   count: 1

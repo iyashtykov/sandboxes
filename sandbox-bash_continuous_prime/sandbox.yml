@@ -7,9 +7,9 @@ settings:
   policy: policy.json
   billing_limit: 5.0
 
-prime:
-  type: continuous
-  count: 1
-  provision_engine: bash
-  provision_engine_config:
-    script: "run.sh"
+# prime:
+#   type: continuous
+#   count: 1
+#   provision_engine: bash
+#   provision_engine_config:
+#     script: "run.sh"
