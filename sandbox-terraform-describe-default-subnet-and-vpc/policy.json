@@ -1,0 +1,21 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AllowEc2",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:*"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "AllowIAM",
+            "Effect": "Allow",
+            "Action": [
+                "IAM:*"
+            ],
+            "Resource": "*"
+        }
+    ]
+}

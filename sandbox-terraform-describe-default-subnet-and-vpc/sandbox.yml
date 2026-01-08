@@ -1,0 +1,9 @@
+version: "1.0"
+type: "aws_cloud"
+settings:
+  lifetime: "15m"
+  lifetime_extension: "5m"
+  lifetime_max: "20m"
+  policy: policy.json
+  provision_engine: terraform
+  billing_limit: 5.0
