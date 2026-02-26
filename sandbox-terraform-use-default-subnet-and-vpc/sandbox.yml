@@ -1,6 +1,7 @@
 version: "1.0"
 type: "aws_cloud"
 settings:
+  cloud_account: codio
   lifetime: "15m"
   lifetime_extension: "5m"
   lifetime_max: "20m"

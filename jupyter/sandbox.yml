@@ -1,0 +1,12 @@
+version: 1.0
+type: jupyter
+settings:
+  cloud_account: codio
+  lifetime: "10m"
+  lifetime_extension: "5m"
+  lifetime_max: "1h"
+  parameters:
+    instance_type: t3.large
+    # custom_image: public.ecr.aws/o0g3m8o6/codio/codio-jupyter:standard-standard
+    # custom_image: quay.io/jupyter/base-notebook:latest
+    volume_size: 33
