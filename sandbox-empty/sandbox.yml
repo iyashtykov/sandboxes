@@ -4,3 +4,4 @@ settings:
   lifetime: "10m"
   lifetime_extension: "5m"
   lifetime_max: "20m"
+  cooldown_time: 0m

@@ -1,10 +1,12 @@
 version: 1.0
 type: aws_cloud
+scope: assignment
 settings:
   cloud_account: codio
   lifetime: 10m
   lifetime_extension: 5m
-  lifetime_max: 20m
+  lifetime_max: 1h
+  cooldown_time: 0m
   policy: policy.json
   billing_limit: 5.0
 

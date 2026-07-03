@@ -1,11 +1,12 @@
 version: 1.0
 type: jupyter
+scope: assignment
 settings:
-  cloud_account: codio
   lifetime: "10m"
   lifetime_extension: "5m"
   lifetime_max: "1h"
+  cooldown_time: 0m
   parameters:
     instance_type: g4dn.xlarge
     # custom_image: public.ecr.aws/o0g3m8o6/codio/codio-jupyter:gpu-cuda-latest
-    volume_size: 44
+    volume_size: 40

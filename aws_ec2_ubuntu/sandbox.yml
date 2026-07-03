@@ -1,9 +1,11 @@
 version: 1.0
 type: aws_ec2
+scope: assignment
 settings:
   lifetime: 15m
   lifetime_extension: "5m"
-  lifetime_max: "20m"
+  lifetime_max: "1h"
+  cooldown_time: 0m
   parameters:
     # supported types:
     # t3.nano t3.micro t3.small t3.medium t3.large t3.xlarge t3.2xlarge
