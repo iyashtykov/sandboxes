@@ -10,3 +10,4 @@ settings:
     instance_type: g4dn.xlarge
     # custom_image: public.ecr.aws/o0g3m8o6/codio/codio-jupyter:gpu-cuda-latest
     volume_size: 40
+    # warmup_storage: true

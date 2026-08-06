@@ -17,5 +17,6 @@ settings:
     # VM image name or id - Windows Codio Ami or codio-aws-windows-base
     image: codio-aws-windows-base
     volume_size: 30
+    # warmup_storage: true
     # open by default - vnc or ssh, or don't set option to use both
     connection_mode: vnc

@@ -18,6 +18,7 @@ settings:
     # VM image name or id - Ubuntu Codio Ami or codio-aws-ubuntu-base
     image: codio-aws-ubuntu-base
     volume_size: 30
+    # warmup_storage: true
     # open by default - vnc, ssh or http, or don't set option to use all 3 modes
     # connection_mode: ssh
 
